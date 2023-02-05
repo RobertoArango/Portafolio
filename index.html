@@ -16,7 +16,7 @@
             <a href= #aboutme>About Me</a>
             <a href= #experience>Experience</a>
             <a href="">Skills</a>
-            <a href="">Contact Me</a>
+            <a href= #contactme>Contact Me</a>
         </nav>
     </header>
     <main>
@@ -52,19 +52,42 @@
             </p>
 
             <h1 class="contacto" id="contactme">Contact Me</h1>
-            <p class="redes">Medios de contacto:
-
-                Correo: Robertoarango909@gmail.com
+            <p class="medios">Medios de contacto:
+                <ul class="redes">
+                    <li>Correo: Robertoarango909@gmail.com</li> 
                 
-                Instagram:  https://www.instagram.com/robarango215/
+                    <li>Instagram: <a href="https://www.instagram.com/robarango215/?hl=es-la" 
+                        target="_blank"> https://www.instagram.com/robarango215/</a>
+                    </li>  
                 
-                Whatsapp: 04142783725
+                    <li> Whatsapp: <a href="https://wa.me/+5804142783725"
+                        target="_blank"> 04142783725</a>
+                    </li>
                 
-                Telegram: @robarango</p>
-
+                    <li>Telegram: <a href="https://t.me/robarango" target="_blank">
+                        @robarango</a>
+                    </li>
+                </ul>
+            </p>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <h2 class="mensaje">Para más información, redactame un correo</h2>
+        <form method="get" class="form">
+            <label class="label2"> Nombre
+                <input type="text" name="usuario"/>
+            </label>
+            
+            <label class="label2"> Correo
+                <input type="email" name="mail"/>
+            </label>
+
+            <label class="label2"> Comentario
+                <input type="text" name="comentario"/>
+            </label>
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </footer>
 </body>
 <script src="./main.js"></script>
 </html>
