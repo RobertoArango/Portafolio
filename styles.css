@@ -13,14 +13,99 @@ header{
     width: 1000px;
     height: 44px;
     left: 10px;
-    top: 280px;
-    border:solid thin red;
+    top: 620px;
+    font-size: 36px;
+}
+
+.navegacion {
+    position: absolute;
+    left: 120px;
+    width: 1000px;
+    height: 44px;
+    background-color: rgb(60, 160, 210);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navegacion a {
+    color: black;
+    text-decoration: none;
+}
+
+.start {
+    position: absolute;
+    top: 800px;
+    width: 40%;
+    left: 40px;
+}
+
+.yo {
+    position: absolute;
+    top: 850px;
+    width: 40%;
+    left: 40px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.foto {
+    position: absolute;
+    top: 700px;
+    right: 35%;
+}
+
+.exp {
+    position: absolute;
+    top: 1160px;
+    left: 950px;
+}
+
+.referencias {
+    position: absolute;
+    top: 1200px;
+    right: 60px;
+    width: 40%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.juego1 {
+    position: absolute;
+    top: 1260px;
+    right: 100px;
+    width: 30%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.juego2 {
+    position: absolute;
+    top: 1340px;
+    right: 100px;
+    width: 30%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.contacto {
+    position: absolute;
+    top: 1420px;
+    left: 50px;
+}
+
+.redes {
+    position: absolute;
+    top: 1450px;
+    left: 50px;
+    width: 25%;
 }
 
 .Hero{
     position: absolute;
     width: 1280px;
-    height: 260px;
+    height: 100%;
     left: 0px;
     top: 0px;
 }
